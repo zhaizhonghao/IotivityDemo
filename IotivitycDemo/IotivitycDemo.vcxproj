@@ -79,10 +79,10 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>D:\iotivity-1.2.1\extlibs\boost\boost;D:\iotivity-1.2.1\out\windows\amd64\debug\include\resource;D:\iotivity-1.2.1\out\windows\amd64\debug\include\c_common\windows;D:\iotivity-1.2.1\out\windows\amd64\debug\include\c_common;$(IncludePath)</IncludePath>
-    <ReferencePath>D:\iotivity-1.2.1\out\windows\amd64\debug;C:\Users\zhai\Source\Repos\IotivitycDemo\IotivitycDemo\Debug;$(ReferencePath)</ReferencePath>
-    <LibraryPath>D:\iotivity-1.2.1\out\windows\amd64\debug;$(LibraryPath)</LibraryPath>
-    <LibraryWPath>D:\iotivity-1.2.1\out\windows\amd64\debug;$(LibraryWPath)</LibraryWPath>
+    <IncludePath>C:\iotivity-1.2.1\extlibs\boost\boost;C:\iotivity-1.2.1\out\windows\amd64\debug\include\resource;C:\iotivity-1.2.1\out\windows\amd64\debug\include\c_common\windows;C:\iotivity-1.2.1\out\windows\amd64\debug\include\c_common;$(IncludePath)</IncludePath>
+    <ReferencePath>C:\iotivity-1.2.1\out\windows\amd64\debug;$(ReferencePath)</ReferencePath>
+    <LibraryPath>C:\iotivity-1.2.1\out\windows\amd64\debug;$(LibraryPath)</LibraryPath>
+    <LibraryWPath>C:\iotivity-1.2.1\out\windows\amd64\debug;$(LibraryWPath)</LibraryWPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -119,7 +119,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:\iotivity-1.2.1\out\windows\amd64\debug\resource\csdk;D:\iotivity-1.2.1\out\windows\amd64\debug\extlibs\timer;D:\iotivity-1.2.1\out\windows\amd64\debug\extlibs\cjson;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\iotivity-1.2.1\out\windows\amd64\debug\resource\csdk;C:\iotivity-1.2.1\out\windows\amd64\debug\extlibs\timer;C:\iotivity-1.2.1\out\windows\amd64\debug\extlibs\cjson;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>c_common.lib;coap.lib;connectivity_abstraction.lib;gtest.lib;gtest_main.lib;logger.lib;oc.lib;oc_logger.lib;ocsrm.lib;octbstack.lib;octbstack_static.lib;resource_directory.lib;routingmanager.lib;win_helper.lib;octbstack_test.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
